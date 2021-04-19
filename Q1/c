@@ -1,0 +1,2 @@
+select a.gene, a.function_1, e.expr_value, a.metabolism
+from annotation as a join expression as e on a.gene=e.gene;
