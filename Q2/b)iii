@@ -1,0 +1,1 @@
+ Select LastName, FirstName, MemberID from Member where JoinDate BETWEEN '2013-01-01' and '2013-12-31';
