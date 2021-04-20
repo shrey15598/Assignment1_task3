@@ -1,0 +1,4 @@
+select ANY_VALUE(m.MemberID) AS MemberID, ANY_VALUE(m.LastName) AS LastName, m.FirstName from Member m, Entry e 
+Where  m.MemberID = e.MemberID  
+GROUP BY m.FirstName 
+Having count(e.Year)>2;
