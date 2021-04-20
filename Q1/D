@@ -1,1 +1,1 @@
-select metabolise from annotation  group by metabolise  having count(*)>1;
+select metabolism from annotation  group by metabolise  having count(*)>1;
